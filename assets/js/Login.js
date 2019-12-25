@@ -5,8 +5,8 @@ if(text)
     if(text === "admin")
         document.location.href = "admin.html";
     else if(text === "bidder")
-        document.location.href = "bidder_1 - profile.html";
+        document.location.href = "Bidder_1 - Profile.html";
     else if(text === "seller")
-        document.location.href = "seller_1 - profile.html"
+        document.location.href = "Seller_1 - Profile.html"
 
 window.history.replaceState({}, "Auction", "index.html");
